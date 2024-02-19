@@ -41,7 +41,7 @@ jobs :
             eval "$(ssh-agent -s)"
             ssh-add ~/.ssh/vm_senpro_modul2_22
             echo "Cek folder project";
-            [ ! -d "${HOME}/senpro/474703/modul02/senpro-github-action/"] $$
+            [ ! -d "${HOME}/senpro/474703/modul02/senpro-github-action/" ] $$
             {
               echo "Repository belum di-clone. Cloning...";
               mkdir -p ~/senpro/474703/modul02;
